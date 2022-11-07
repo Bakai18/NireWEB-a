@@ -1,0 +1,44 @@
+
+/*---------------------------*/
+/* Orri-oinarentzako. */
+/*-------------------------*/
+.content{
+    width: 90%; 
+    margin: auto;
+    margin-bottom: 5%; 
+    padding: 5% ;
+}
+
+#biblio{
+  width: 100%; 
+  height: fit-content;
+  margin: auto;
+  display: -webkit-flex ;
+}
+
+#biblio .text{
+  width: 90%;
+  height: fit-content;
+}
+
+.content h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+  .fixed_footer{
+  width: 100%;
+  height: 20%;
+  background:  rgba(255, 153, 0, 0.5);
+  position: fixed; left: 0; bottom: 0;
+  z-index: -100;
+}
+  .fixed_footer p{
+  font-family: 'Open Sans', sans-serif;
+  color: #696969;
+  column-count: 2;
+  column-gap: 10%;
+  font-size: 1em;
+  font-weight: 300;
+}
